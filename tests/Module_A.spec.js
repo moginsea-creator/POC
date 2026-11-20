@@ -10,7 +10,7 @@ test('A1 TEST', async({page, request}) =>{
         first_name: 'Amit',
         last_name: 'Rajput',
         email: `amit${Date.now()}@test.com`,
-        password: 'Password123!'
+        password: 'Amit@100010001000qa2013'
       }
     }
 );
@@ -21,23 +21,22 @@ console.log(await Posting.status());
 console.log(await Posting.statusText());
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //npx playwright test --project=chromium --headed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
